@@ -11,7 +11,7 @@ containerd_registries_mirrors:
       - host: https://mirror.gcr.io
         capabilities: ["pull", "resolve"]
         skip_verify: false
-      - host: https://registry-1.docker.io
+      - host: https://huecker.io
         capabilities: ["pull", "resolve"]
         skip_verify: false
 

@@ -55,7 +55,7 @@ containerd_metrics_grpc_histogram: false
 containerd_registries_mirrors:
   - prefix: docker.io
     mirrors:
-      - host: https://registry-1.docker.io
+      - host: https://huecker.io
         capabilities: ["pull", "resolve"]
         skip_verify: false
 
